@@ -1,1 +1,1 @@
-javascript ѧϰ��Ŀ
+javascript 学习项目
