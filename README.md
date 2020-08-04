@@ -60,6 +60,8 @@ javascript 学习项目
 	三.   Web安全前端方面
 
 	1. XSS跨站请求攻击
-
+		过滤script标签
 
 	2. XSRF跨站请求伪造
+
+			用post请求防御
