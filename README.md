@@ -65,3 +65,40 @@ javascript 学习项目
 	2. XSRF跨站请求伪造
 
 			用post请求防御
+
+	四. typeof能判断的类型
+
+	1. 值类型 :  undefind number  symbol string  boolean
+
+	2. object   ,(注意 typeof null === 'object')
+
+	3. Function
+
+	五. 列举js的强制类型转换和隐式转换
+
+	1、强制类型转换  有 parseInt parseFloat  toString
+
+	2. 隐式类型转换有 if  、逻辑运算 以及  == 还有 字符串拼接
+
+
+	六. 函数表达式和函数声明有什么区别
+
+	函数表达式: var a = function () {}
+
+	函数声明 : function a () {}
+
+	函数声明会变量提升 寻找上文中没声明直接调用的地方。 而函数表达式则不会
+
+
+	七. ajax中 get  与post的区别
+
+	1. get用于查询  post用于提交
+
+	2. get请求参数放在url， post放在请求体body里（可以存放大量数据）
+
+	3. post请求可以防止xsrf攻击
+
+
+	八. new Object() 与 Object.create()的区别
+
+	
