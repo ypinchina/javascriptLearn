@@ -10,7 +10,7 @@ let timer = null
         timer = null
     }, 200)
 })*/
-
+//节流
 function throttle (fn, delay = 200) {
   let timer = null 
   return function() {
